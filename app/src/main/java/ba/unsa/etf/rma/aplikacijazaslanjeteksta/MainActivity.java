@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity
 {
-    private final String ACTION_SEND = "ŠALJI";
+    //private final String ACTION_SEND = "ŠALJI";
     private TextView tvSalji;
     private EditText editSalji;
     private Button dugmePosalji;
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity
                 // I - pozivanje podrazumijevanog konstruktota Intenta
                 Intent otvoriAplikacijuZaSlanjeTeksta = new Intent();
                 // II - postavljanje akcija koja se treba obaviti
-                otvoriAplikacijuZaSlanjeTeksta.setAction(ACTION_SEND);
+                otvoriAplikacijuZaSlanjeTeksta.setAction(Intent.ACTION_SEND);
 
                 // III - postavljanje podataka koji se trebaju obaviti
                 if(editSalji.getText().toString().trim().length() != 0)
