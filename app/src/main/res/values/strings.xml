@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AplikacijaZaSlanjeTeksta</string>
+    <string name="poslaji">POSALJI TEKST</string>
+    <string name="unesiPoruka">Ocjde mozete unieti svoj tekst: </string>
+</resources>
